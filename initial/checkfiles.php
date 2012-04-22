@@ -1,4 +1,7 @@
 <?php
+// this script checks, if files exists, and sets the status to 10,  
+// otherwise tries to download, if that fails, sets status to 2
+
 @include "../config.inc.php";
 
 $context = stream_context_create(array(

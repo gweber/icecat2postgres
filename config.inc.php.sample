@@ -7,7 +7,7 @@ $dbpassword	=	"password";
 $dbname		=	"icecat";
 
 @include "pgsql.inc.php";
-
+@include "tools.inc.php";
 
 $icecat_user 	=	"iceuser";
 $icecat_pass 	=	"icepass";
