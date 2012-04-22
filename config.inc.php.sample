@@ -1,0 +1,20 @@
+<?php
+
+// database
+$dbhost		=	"localhost";
+$dbuser		=	"user";
+$dbpassword	=	"password";
+$dbname		=	"icecat";
+
+@include "pgsql.inc.php";
+
+
+$icecat_user 	=	"iceuser";
+$icecat_pass 	=	"icepass";
+$iceurl		=	"http://data.Icecat.biz/export/freexml/DE/";	
+$daily_url 	= "http://data.Icecat.biz/export/freexml/daily.index.xml";
+
+$xmlstorage 	=	"/data/icecat/";
+$dailyxmlstorage 	=	"/data/icecat/daily/";
+
+?>
