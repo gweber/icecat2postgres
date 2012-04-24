@@ -4,7 +4,7 @@
 #			2	turn sql off
 #			4	show sql queries
 
-$debug = 7;
+$debug = 1;
 
 function debug ($level, $message){
 	global $debug,$id;
