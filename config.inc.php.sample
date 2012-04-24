@@ -13,6 +13,7 @@ $icecat_user 	=	"iceuser";
 $icecat_pass 	=	"icepass";
 $iceurl		=	"http://data.Icecat.biz/export/freexml/DE/";	
 $daily_url 	= "http://data.Icecat.biz/export/freexml/daily.index.xml";
+$daily_supp_url 	= "http://data.Icecat.biz/export/freexml/supplier_mapping.xml";
 
 $xmlstorage 	=	"/data/icecat/";
 $dailyxmlstorage 	=	"/data/icecat/daily/";
